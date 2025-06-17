@@ -9,7 +9,7 @@ body {
 
 /* Fixed Header and Navigation */
 header {
-    background-color: #004080;
+    background-color: #1b0178;
     color: white;
     padding: 15px;
     display: flex;
@@ -23,7 +23,7 @@ header {
 
 .logo  img{
   width: 80px;
-  height: 60px;
+  height: 80px;
   float: left;
   margin-top: 0;
   margin-bottom: 0;
@@ -71,10 +71,12 @@ header {
 .note{
     float: right;
     width: 50%;
+    font-size: 16px;
+       font-family: Arial, sans-serif;
 }
 .list{
     width: 50%;
-    font-size: 20px;
+    font-size: 16px;
 }
 .table ,thead ,tr{
     width: 560px;
@@ -136,7 +138,7 @@ tbody td:hover::before{
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #004080;
+    background-color: #1b0178;
     color: white;
     margin-top: 40px;
 }
